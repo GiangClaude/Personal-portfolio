@@ -1,0 +1,34 @@
+#project {
+    position: relative;
+    /* display: inline-block; */
+    height: 90%;
+    bottom: 0;
+}
+
+.projectBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 83%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: rgba(137, 142, 254, 0.6);
+}
+
+.projectInfor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.projectInfor .avatar-git{
+    flex: 30%;
+    /* width: 100%; */
+}
+
+.avatar-git .project-avatar {
+    image-resolution: 1;
+    /* background-image: url(/img/Flappy-Bird-Logo-Transparent-Background.png); */
+}

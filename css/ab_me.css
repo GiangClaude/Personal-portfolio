@@ -1,0 +1,143 @@
+
+
+/* Content */
+#content {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 90%;
+}
+
+
+
+.Jikoshokai{
+    flex: 50%; 
+    margin-top: 3%;
+    margin-left: 4%;
+    text-align: left;
+    top: 0;
+}
+
+.Jikoshokai .Hello{
+    font-family: Holtwood_One_SC;
+    font-size: 40px;
+    color: #FBF2FF;
+}
+
+.Jikoshokai .Nice{
+    font-family: Homemade_Apple;
+    font-size: 20px;
+    color: #8000FF;
+    margin: 12px 0;
+}
+
+.Jikoshokai .Day{
+    font-family: Khand;
+    font-size: 30px;
+    color: #FAF2A8;
+}
+
+.imgMe{
+    position: absolute;
+    height: 75%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.imgMe img{
+    height: 100%;
+}
+
+.leftContent{
+    flex: 50%;
+    position: relative;
+}
+
+.onepointfive{
+    background-color: aqua;
+}
+
+.leftBox{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-35%);
+    margin-bottom: 15%;
+
+}
+
+.lC_Heading{
+    border-radius: 60px;
+    background-color: var(--theme-color);
+    display: inline-block;
+
+}
+
+.lC_Heading li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.lC_Heading li{
+    text-decoration: none;
+    font-family: KiteOne;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.2em 0.5em;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+#Education{
+    background-color: #FBF2FF;
+    color: var(--theme-color);
+    /* margin-right: 20px; */
+}
+
+#Experience{
+    /* margin-left: 20px; */
+    left: 0;
+}
+
+.lC_Text{
+    text-align: left;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 16px;
+    float: inline-start;
+}
+
+.lC_Text li{
+    
+    font-family: KiteOne;
+    font-size: 20px;
+}
+
+.textEducation {
+    /* background-color: rgba(137, 143, 254, 0.7);
+    color: #fff; */
+    list-style: inside url('/img/Star2.png');
+    background-color:rgba(251, 242, 255, 0.7);
+    color: var(--theme-color);
+
+    /* display: none; */
+}
+
+.textExperience{
+    list-style: inside url('/img/Star1.png');
+    background-color: rgba(137, 143, 254, 0.7);
+    color: #fff;
+    display: none;
+}
+
+
+.setHover:hover{
+    
+}
+
+/* End Content */

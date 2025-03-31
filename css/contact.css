@@ -1,0 +1,75 @@
+@keyframes star{
+    0% {transform: scale(1,1);}
+    25% {transform: scale(0.5,0.5); }
+    50% {transform: scale(0.25, 0.25);}
+    75% {transform: scale(0.125, 0.125);}
+    100% {transform: scale(0,0);}
+}
+ 
+.contact-heading{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    width: 27%;
+    height: 8%;
+    /* transform: translateX(-50%); */
+    /* margin-top: 3%; */
+}
+
+.contact-hd-box{
+    height: 100%;
+    width: 100%;
+    border-radius: 70px;
+    background-color: rgba(137, 142, 254,0.84);
+}
+
+.purpleBox{
+    position: relative;
+}
+
+.contact-hd-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: rgba(249, 201, 251,0.84);
+    text-align: center;
+    font-family: Homemade_Apple;
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 2.2px;
+}
+
+.contact-body{
+    display: block;
+    position: absolute;
+    width: 50%;
+    background-color: rgba(255, 255, 255,0.58);
+    border-radius: 18px;
+    font-size: 26px;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+
+.contact-body .contact-bd-icon{
+   margin: 5px 10px 0 8px;
+   margin-bottom: 0;
+   color: #000;
+   font-size: 30px;
+}
+
+.contact-body p{
+    font-family: KiteOne;
+    height: 50%;
+    padding: 4px 15px;
+}
+
+.contact-body p a{
+    color: var(--theme-color);
+}
+
+.star-affects{
+   animation-name: star;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}

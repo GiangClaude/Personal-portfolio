@@ -1,0 +1,30 @@
+:root {
+    --theme-color: #898EFE;
+}
+
+
+.theme-color{
+    background-color: #898EFE;
+}
+
+.onClickPage{
+    text-decoration: underline;
+    background-color: rgba(255, 199, 240,0.5);
+    color:#fff;
+}
+
+.noClickPage{
+    text-decoration: none;
+}
+
+.noClickPage:hover{
+    font-style: italic;
+    background-color: rgba(284, 151, 250, 0.5);
+
+}
+
+.center-content {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
